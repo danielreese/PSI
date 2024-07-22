@@ -530,7 +530,8 @@ button {
     nav ul {
         display: none;
         flex-direction: column;
-        background: #afacac;
+        background: #000000;
+        opacity: .85;
         position: absolute;
         width: 100%;
         top: 60px;
