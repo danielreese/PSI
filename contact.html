@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSI | Home</title>
+    <link rel="stylesheet" href="./Assets/css/styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="announcement-bar">
+                <a href="#">Visit Our Shop to Win a Free Shirt when you make a Purchase of $100 or more</a>
+            </div>
+            <nav>
+                <div class="menu-icon contact-menu-icon" id="menu-icon">&#9776;</div>
+                <ul id="nav-menu">
+                    <li><a href="#">Supplements</a></li>
+                    <li><a href="#">Apparel &amp; Gear</a></li>
+                    <li><a href="#">Take Our Quiz</a></li>
+                    <li><a href="./index.html"><img src="./Assets/img/logo.png" alt="PSI Logo" id="logo"></a></li>
+                    <li><a href="#">Training</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="contact-container">
+            <h1>Contact Us</h1>
+            <div class="contact-order">
+                <div class="track-order">
+                    <button onclick="trackOrder"><i class="fa-solid fa-magnifying-glass-location"></i> Track Order</button>
+                </div>
+                <div class="return-order">
+                    <button onclick="returnOrder"><i class="fa-solid fa-box"></i> Return Order</button>
+                </div>
+            </div>
+            <form id="contact-form">
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="full-name" required>
+
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="subject">Message *</label>
+                <textarea type="message" id="message" rows="5" required></textarea>
+
+                <div class="file-input">
+                    <input type="file" id="file" name="file" multiple>
+                </div>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <!-- Footer Section -->
+        <footer>
+            <!-- Top Footer -->
+            <div class="top-footer">
+                <h1>SIGNUP FOR OUR NEWSLETTER</h1>
+                <p>Get Notifications About Product Releases, Exclusive Content and Much More.</p>
+                <div class="input-container">
+                    <input type="text" placeholder="EMAIL XXX@PSI.FIT">
+                    <button type="submit">SUBSCRIBE</button>
+                </div>
+                <p class="terms"> I agree to receive recurring automated marketing email (e.g. cart reminders) at the email provided. View our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+            </div>
+
+            <!-- Quiz Footer -->
+            <div class="quiz-footer">
+                <div class="logo">
+                    <a href="./index.html"><img src="./Assets/img/logo.png" alt="PSI Logo"></a>
+                </div>
+                <div class="quiz-buttons">
+                    <a href="#" class="quiz-btn">Take Our Quiz</a>
+                    <a href="#" class="shop-btn">Shop The PSI Store</a>
+                </div>
+            </div>
+
+            <!-- Mid Footer -->
+            <div class="mid-footer">
+                <div class="mid-footer-section">
+                    <div class="mid-footer-column">
+                        <h3>SHOP</h3>
+                        <ul>
+                            <li><a href="#">Apparel and Gear</a></li>
+                            <li><a href="#">Training Plans</a></li>
+                            <li><a href="#">Supplements</a></li>
+                        </ul>
+                    </div>
+                    <div class="mid-footer-column">
+                        <h3>LEARN</h3>
+                        <ul>
+                            <li><a href="#">Articles</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">Podcasts</a></li>
+                            <li><a href="#">Recipes</a></li>
+                            <li><a href="#">Training Apps</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="mid-footer-column">
+                        <h3>SUPPORT</h3>
+                        <ul>
+                            <li><a href="#">Take Our Quiz</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                        </ul>
+                    </div>
+                    <div class="mid-footer-column">
+                        <h3>CONTACT US</h3>
+                        <ul>
+                            <li><a href="#">Send Us A Message</a></li>
+                            <li><a href="#">FAQS</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Data Subject Access Request</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Footer -->
+            <div class="social-footer">
+                <a href="#" class="social-item">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#" class="social-item">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="social-item">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="social-item">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="bottom-footer">
+                <p>These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure or prevent any disease.</p>
+                <div class="bottom-footer-links">
+                    <a href="#">TERMS &#38; CONDITIONS</a>
+                    <a href="#">PRIVACY POLICY</a>
+                    <a href="#">ACCESSIBILITY</a>
+                    <a href="#">COOKIE POLICY</a>
+                    <a href="#">COOKIE PREFERENCE</a>
+                </div>
+                <p id="metizen-tag">Built by <a href="#" id="metizen-highlight">Metizen Developers</a></p>
+            </div>
+        </footer>
+    </div>
+    <script src="./Assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/9ea01192cb.js" crossorigin="anonymous"></script>
+</body>
+</html>
