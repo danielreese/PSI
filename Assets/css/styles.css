@@ -542,6 +542,28 @@ button {
     margin: 10px 0;
 }
 
+/* Privacy Policy */
+
+.privacy-container {
+    line-height: 1.6;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.privacy-container h1 {
+    text-align: center;
+}
+
+.privacy-container h3, h5, p {
+    margin: 10px 0;
+}
+
+.privacy-container li {
+    margin: 0 20px;
+}
+
 /* Media Queries */
 
 @media(max-width: 1280px) {
@@ -667,6 +689,13 @@ button {
         padding: 10px;
     }
     .terms-container h1 {
+        font-size: 1.5em;
+    }
+    .privacy-container {
+        width: 90%;
+        padding: 10px;
+    }
+    .privacy-container h1 {
         font-size: 1.5em;
     }
 }
