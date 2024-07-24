@@ -564,6 +564,54 @@ button {
     margin: 0 20px;
 }
 
+/* Quiz Page */
+.quiz-container {
+    height: 100%;
+    background: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    /* Background Image Here */
+}
+
+.quiz-content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.quiz-content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.quiz-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.gender-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gender-buttons #gender-button {
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.gender-buttons #gender-button:hover {
+    background: #fff;
+    color: #000;
+}
+
 /* Media Queries */
 
 @media(max-width: 1280px) {

@@ -6,3 +6,8 @@ document.getElementById('menu-icon').addEventListener('click', function() {
         navMenu.classList.add('show');
     }
 });
+
+document.getElementById('category').addEventListener('change', function () {
+    const category = this.value;
+    window.location.href = `${category}.html`;
+});
